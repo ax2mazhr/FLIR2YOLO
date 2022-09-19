@@ -1,7 +1,7 @@
 
 # FLIR 2 YOLO
 
-Convert FLIR formatted annotations to YOLO training format + Additional Directory tree formating guide.
+Convert FLIR formatted annotations to YOLO training format + Additional Directory tree formatting guide.
 
 
 ## Features
