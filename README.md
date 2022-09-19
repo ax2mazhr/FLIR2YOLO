@@ -52,7 +52,8 @@ I have also included my `.yaml` config file which you may use or edit according 
         └── thermal.yaml
 ```
 
-## Tweaking
+## Requirments & Tweaking
+- I use `opencv` to display the labeled images, you may comment lines `6,42,61,63,64` if you dont want to display images
 - I only needed 11 classes in my work, thus you will find a line that filters and only converts these classes. If you need more classes, just add them to the `labels` variable in the script.
 
 ```28  labels = ['person','bike','car','motor','bus','train','truck','light','dog','scooter','other vehicle']```
