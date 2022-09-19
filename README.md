@@ -40,17 +40,17 @@ I have also included my `.yaml` config file which you may use or edit according 
 ├── YOLO
     ├── data
         ├── thermal
-        │	├── images
+        │ ├── images
         │ │   ├── trian_flir_images   #contains all train images
-        │	│   ├── test_flir_images    #contains all test images
+        │ │   ├── test_flir_images    #contains all test images
         │ │   └── val_flir_images     #contains all val images
         │ ├── labels
         │ │   ├── trian_flir_images   #contains all generated train txt labels
-        │	│   ├── test_flir_images    #contains all generated test txt labels
+        │ │   ├── test_flir_images    #contains all generated test txt labels
         │ │   └── val_flir_images     #contains all generated val txt labels
-        │	├── trian_flir_images.txt   #this is the all_image_names.txt generated file
-        │	├── test_flir_images.txt    #this is the all_image_names.txt generated file
-        │	└── val_flir_images.txt     #this is the all_image_names.txt generated file
+        │ ├── trian_flir_images.txt   #this is the all_image_names.txt generated file
+        │ ├── test_flir_images.txt    #this is the all_image_names.txt generated file
+        │ └── val_flir_images.txt     #this is the all_image_names.txt generated file
         └── thermal.yaml
 ```
 
