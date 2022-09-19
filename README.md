@@ -11,15 +11,17 @@ Convert FLIR formatted annotations to YOLO training format + Additional Director
 
 
 ## How to use
- 1. Paste `flir2yolo.py` script inside FLIR dataset folder ex: "images_thermal_train".
+ 1. Download and extract FLIR dataset (https://www.flir.eu/oem/adas/adas-dataset-form/)
+ 
+ 2. Paste `flir2yolo.py` script inside FLIR dataset folder ex: "images_thermal_train".
 
- 2. Run the script with the directory of the dataset in the YOLO folder added as an argument 
+ 3. Run the script with the directory of the dataset in the YOLO folder added as an argument 
  
  `python3 flir2yolo.py "data/thermal/train_flir_images/"`
 
- 3. Redo the previous steps for all datasets that you need to convert.
+ 4. Redo the previous steps for all datasets that you need to convert.
  
- 4. Copy and rename the generated files to YOLO directory.
+ 5. Copy and rename the generated files to YOLO directory.
 
 ## Output
 - A folder called labels will be created where the script resides inside the FLIR dataset folder. Which contiains the label txt files named by the same image names provided by FLIR ex: `video-2Af3dwvs6YPfwSSf6-frame-000000-imW24bapJsHpTahce.txt`.
