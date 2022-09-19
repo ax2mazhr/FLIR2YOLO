@@ -31,7 +31,7 @@ Convert FLIR formatted annotations to yolo training format + Additional Director
 
 ## YOLO directory formatting
 
-This might help you with how the dat should be prepared for training.
+This might help you with how the data should be prepared for training.
 
 I have also included my `.yaml` config file which you may use or edit according to your naming. 
 ```
@@ -39,13 +39,13 @@ I have also included my `.yaml` config file which you may use or edit according 
     ├── data
         ├── thermal
         │	├── images
-        │  	│   ├── trian_flir_images   #contains all train images
+        │ │   ├── trian_flir_images   #contains all train images
         │	│   ├── test_flir_images    #contains all test images
-        │   │   └── val_flir_images     #contains all val images
-        │   ├── labels
-        │   │   ├── trian_flir_images   #contains all generated train txt labels
+        │ │   └── val_flir_images     #contains all val images
+        │ ├── labels
+        │ │   ├── trian_flir_images   #contains all generated train txt labels
         │	│   ├── test_flir_images    #contains all generated test txt labels
-        │   │   └── val_flir_images     #contains all generated val txt labels
+        │ │   └── val_flir_images     #contains all generated val txt labels
         │	├── trian_flir_images.txt   #this is the all_image_names.txt generated file
         │	├── test_flir_images.txt    #this is the all_image_names.txt generated file
         │	└── val_flir_images.txt     #this is the all_image_names.txt generated file
@@ -62,3 +62,4 @@ I have also included my `.yaml` config file which you may use or edit according 
 ## Author notes
 - This script is better than other scripts since this converts the orginial FLIR generated `index.json` file. The other `coco.json` file contains wrong labeling which will result in your training loosing hope.
 - After the script ends, it will print the ammount of images dicovered and labeled. You will notice that in some datasets there will be way less displayed count than the number of images available. This is due to FLIR not labeling these images and not including them in the JSON file. Dont panic..
+- Please talk encouraging words and bring cookies to your GPU while training for optimal performance.ʕっ•ᴥ•ʔっ
