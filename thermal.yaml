@@ -1,0 +1,12 @@
+# FLIR ADASv2 dataset 
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+path: data/thermal
+train: data/thermal/images/train_flir_images  # 10742 images
+val: data/thermal/images/val_flir_images  # 1144 images
+test: data/thermal/images/test_flir_images  # 3749 images
+# number of classes
+nc: 11
+
+# class names
+names: {'person':0,'bike':1,'car':2,'motor':3,'bus':4,'train':5,'truck':6,'light':7,'dog':8,'scooter':9,'other vehicle':10}
