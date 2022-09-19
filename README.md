@@ -5,7 +5,7 @@ Convert FLIR formatted annotations to YOLO training format + Additional Director
 
 
 ## Features
-- Converts FLIR json annotation file provided in the dataset `index.json` to YOLO labels for each image.
+- Converts FLIR json annotation file provided in the dataset,`index.json`, to YOLO labels for each image.
 - Creates a `.txt` file with all image names extracted from JSON file and appends your specified direcotry to thier names.
 - Previews Images with labels drawn with class names while converting for the user to visually check data validity.
 
